@@ -1,13 +1,15 @@
 pipelines:
-  - name: pipeline_voluptatem_1
+  - name: pipeline_corporis_1
     steps:
-      - name: step_itaque_1
+      - name: step_ipsa_1
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
-      - name: step_velit_2
+        configuration:
+          affinityGroup: groupneque
+      - name: step_in_2
         type: Bash
         execution:
           onExecute:
@@ -15,8 +17,9 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_itaque_1
-      - name: step_et_3
+            - name: step_ipsa_1
+          affinityGroup: groupneque
+      - name: step_deserunt_3
         type: Bash
         execution:
           onExecute:
@@ -24,8 +27,10 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_velit_2
-      - name: step_modi_4
+            - name: step_in_2
+            - name: step_ipsa_1
+          affinityGroup: groupcorporis
+      - name: step_omnis_4
         type: Bash
         execution:
           onExecute:
@@ -33,9 +38,11 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_et_3
-            - name: step_itaque_1
-      - name: step_enim_5
+            - name: step_deserunt_3
+            - name: step_ipsa_1
+            - name: step_in_2
+          affinityGroup: groupcorporis
+      - name: step_quia_5
         type: Bash
         execution:
           onExecute:
@@ -43,11 +50,10 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_et_3
-            - name: step_velit_2
-            - name: step_itaque_1
-            - name: step_modi_4
-      - name: step_facilis_6
+            - name: step_deserunt_3
+            - name: step_in_2
+          affinityGroup: groupcorporis
+      - name: step_non_6
         type: Bash
         execution:
           onExecute:
@@ -55,12 +61,10 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_enim_5
-            - name: step_velit_2
-            - name: step_modi_4
-            - name: step_et_3
-            - name: step_itaque_1
-      - name: step_quaerat_7
+            - name: step_deserunt_3
+            - name: step_ipsa_1
+          affinityGroup: groupsunt
+      - name: step_aut_7
         type: Bash
         execution:
           onExecute:
@@ -68,8 +72,11 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_itaque_1
-      - name: step_vel_8
+            - name: step_ipsa_1
+            - name: step_deserunt_3
+            - name: step_in_2
+          affinityGroup: groupsunt
+      - name: step_voluptatem_8
         type: Bash
         execution:
           onExecute:
@@ -77,10 +84,11 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_facilis_6
-            - name: step_velit_2
-            - name: step_et_3
-      - name: step_qui_9
+            - name: step_aut_7
+            - name: step_in_2
+            - name: step_ipsa_1
+          affinityGroup: groupsunt
+      - name: step_numquam_9
         type: Bash
         execution:
           onExecute:
@@ -88,10 +96,11 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_modi_4
-            - name: step_facilis_6
-            - name: step_et_3
-      - name: step_omnis_10
+            - name: step_non_6
+            - name: step_omnis_4
+            - name: step_in_2
+          affinityGroup: grouprecusandae
+      - name: step_est_10
         type: Bash
         execution:
           onExecute:
@@ -99,5 +108,6 @@ pipelines:
             - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_vel_8
-            - name: step_qui_9
+            - name: step_ipsa_1
+            - name: step_numquam_9
+          affinityGroup: groupvoluptatem
