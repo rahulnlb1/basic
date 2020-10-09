@@ -1,1107 +1,238 @@
 pipelines:
-  - name: pipeline_porro_1
+  - name: S_WF_016
     steps:
-      - name: step_placeat_1
+      - name: S_WF_016_001
         type: Bash
         execution:
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-      - name: step_eius_2
+            - echo "Step 1 is running"
+      - name: S_WF_016_002
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_placeat_1
-      - name: step_omnis_3
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_placeat_1
-            - name: step_eius_2
-      - name: step_officia_4
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_placeat_1
-            - name: step_omnis_3
-            - name: step_eius_2
-      - name: step_assumenda_5
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_3
-            - name: step_placeat_1
-            - name: step_officia_4
-      - name: step_est_6
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_placeat_1
-            - name: step_assumenda_5
-      - name: step_libero_7
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eius_2
-            - name: step_omnis_3
-            - name: step_officia_4
-            - name: step_est_6
-      - name: step_mollitia_8
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_libero_7
-            - name: step_est_6
-            - name: step_omnis_3
-            - name: step_officia_4
-            - name: step_placeat_1
-      - name: step_id_9
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_mollitia_8
-            - name: step_libero_7
-            - name: step_officia_4
-      - name: step_sit_10
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_est_6
-            - name: step_omnis_3
-            - name: step_assumenda_5
-            - name: step_mollitia_8
-            - name: step_placeat_1
-      - name: step_eligendi_11
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_officia_4
-            - name: step_libero_7
-            - name: step_sit_10
-            - name: step_id_9
-            - name: step_eius_2
-      - name: step_ipsa_12
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eius_2
-      - name: step_officiis_13
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_3
-      - name: step_rerum_14
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_est_6
-            - name: step_placeat_1
-            - name: step_eius_2
-      - name: step_reprehenderit_15
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_3
-            - name: step_assumenda_5
-            - name: step_mollitia_8
-            - name: step_ipsa_12
-      - name: step_animi_16
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_ipsa_12
-            - name: step_mollitia_8
-            - name: step_assumenda_5
-            - name: step_omnis_3
-      - name: step_corporis_17
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_officia_4
-            - name: step_rerum_14
-      - name: step_voluptatem_18
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eius_2
-            - name: step_corporis_17
-      - name: step_earum_19
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_3
-            - name: step_eligendi_11
-            - name: step_ipsa_12
-            - name: step_eius_2
-      - name: step_explicabo_20
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eius_2
-            - name: step_ipsa_12
-      - name: step_hic_21
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_voluptatem_18
-            - name: step_omnis_3
-      - name: step_omnis_22
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_id_9
-            - name: step_rerum_14
-            - name: step_sit_10
-            - name: step_placeat_1
-            - name: step_eligendi_11
-      - name: step_consequatur_23
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_libero_7
-      - name: step_nisi_24
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_3
-            - name: step_hic_21
-            - name: step_assumenda_5
-            - name: step_reprehenderit_15
-            - name: step_corporis_17
-      - name: step_in_25
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_consequatur_23
-            - name: step_eius_2
-            - name: step_corporis_17
-            - name: step_omnis_22
-      - name: step_quam_26
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_ipsa_12
-            - name: step_officia_4
-      - name: step_esse_27
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_earum_19
-            - name: step_eligendi_11
-            - name: step_id_9
-      - name: step_quo_28
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_rerum_14
-            - name: step_placeat_1
-            - name: step_earum_19
-      - name: step_beatae_29
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_id_9
-            - name: step_quam_26
-      - name: step_possimus_30
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_libero_7
-      - name: step_laborum_31
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eius_2
-            - name: step_assumenda_5
-            - name: step_omnis_22
-      - name: step_vero_32
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_officiis_13
-            - name: step_officia_4
-            - name: step_libero_7
-            - name: step_quo_28
-      - name: step_soluta_33
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_22
-      - name: step_aut_34
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_mollitia_8
-      - name: step_distinctio_35
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_22
-            - name: step_libero_7
-            - name: step_est_6
-      - name: step_incidunt_36
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_distinctio_35
-      - name: step_iure_37
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_3
-            - name: step_soluta_33
-            - name: step_in_25
-      - name: step_qui_38
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_aut_34
-            - name: step_mollitia_8
-            - name: step_officiis_13
-      - name: step_sed_39
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_reprehenderit_15
-            - name: step_iure_37
-            - name: step_hic_21
-            - name: step_omnis_22
-      - name: step_libero_40
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_libero_7
-            - name: step_in_25
-            - name: step_incidunt_36
-            - name: step_omnis_22
-            - name: step_reprehenderit_15
-      - name: step_maiores_41
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_distinctio_35
-            - name: step_nisi_24
-      - name: step_voluptatem_42
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_libero_7
-            - name: step_mollitia_8
-            - name: step_iure_37
-            - name: step_corporis_17
-            - name: step_incidunt_36
-      - name: step_eos_43
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_beatae_29
-            - name: step_in_25
-            - name: step_vero_32
-            - name: step_libero_40
-            - name: step_voluptatem_18
-      - name: step_rem_44
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_sit_10
-            - name: step_id_9
-            - name: step_placeat_1
-      - name: step_est_45
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_libero_40
-            - name: step_consequatur_23
-            - name: step_vero_32
-            - name: step_animi_16
-      - name: step_ipsam_46
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_quam_26
-            - name: step_soluta_33
-            - name: step_officiis_13
-            - name: step_corporis_17
-            - name: step_omnis_22
-      - name: step_velit_47
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_voluptatem_18
-            - name: step_eos_43
-            - name: step_esse_27
-      - name: step_iusto_48
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_est_6
-            - name: step_mollitia_8
-            - name: step_qui_38
-            - name: step_hic_21
-            - name: step_quo_28
-      - name: step_voluptatem_49
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_vero_32
-            - name: step_esse_27
-            - name: step_possimus_30
-            - name: step_laborum_31
-      - name: step_officia_50
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_3
-      - name: step_sint_51
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_voluptatem_18
-      - name: step_non_52
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_ipsam_46
-      - name: step_fuga_53
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_quo_28
-            - name: step_nisi_24
-            - name: step_libero_40
-            - name: step_soluta_33
-      - name: step_officiis_54
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_sed_39
-            - name: step_est_45
-            - name: step_eius_2
-            - name: step_omnis_22
-            - name: step_corporis_17
-      - name: step_natus_55
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_quam_26
-      - name: step_deserunt_56
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_aut_34
-            - name: step_in_25
-            - name: step_rerum_14
-            - name: step_libero_40
-            - name: step_officia_50
-      - name: step_et_57
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_officia_4
-      - name: step_eum_58
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eius_2
-            - name: step_explicabo_20
-            - name: step_fuga_53
-            - name: step_et_57
-      - name: step_iure_59
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_officiis_54
-            - name: step_animi_16
-            - name: step_libero_40
-      - name: step_rem_60
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_ipsa_12
-            - name: step_eum_58
-            - name: step_natus_55
-      - name: step_libero_61
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_est_45
-            - name: step_laborum_31
-            - name: step_voluptatem_49
-      - name: step_omnis_62
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_velit_47
-            - name: step_earum_19
-            - name: step_mollitia_8
-            - name: step_sit_10
-      - name: step_asperiores_63
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_natus_55
-      - name: step_qui_64
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_reprehenderit_15
-            - name: step_mollitia_8
-            - name: step_sed_39
-            - name: step_officia_4
-            - name: step_aut_34
-      - name: step_maxime_65
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_rem_44
-            - name: step_voluptatem_49
-            - name: step_voluptatem_18
-            - name: step_incidunt_36
-            - name: step_sed_39
-      - name: step_unde_66
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_in_25
-            - name: step_libero_61
-            - name: step_voluptatem_42
-            - name: step_eos_43
-      - name: step_deserunt_67
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eos_43
-            - name: step_rerum_14
-      - name: step_quod_68
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_voluptatem_49
-            - name: step_et_57
-            - name: step_velit_47
-            - name: step_iusto_48
-            - name: step_id_9
-      - name: step_error_69
-        type: Bash
+            - name: S_WF_016_001
         execution:
+          onStart:
+            - add_run_variables step_2_var="foo"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_reprehenderit_15
-            - name: step_qui_38
-            - name: step_libero_61
-      - name: step_ducimus_70
+            - echo "Step 2 is running"
+      - name: S_WF_016_003
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_distinctio_35
-            - name: step_quam_26
-      - name: step_impedit_71
-        type: Bash
+            - name: S_WF_016_001
         execution:
+          onStart:
+            - add_run_variables step_3_var="bar"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_natus_55
-            - name: step_nisi_24
-      - name: step_hic_72
+            - echo "Step 3 is running"
+      - name: S_WF_016_004
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_assumenda_5
-            - name: step_vero_32
-            - name: step_id_9
-      - name: step_doloremque_73
-        type: Bash
+            - name: S_WF_016_002
+            - name: S_WF_016_003
         execution:
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_officia_50
-            - name: step_error_69
-            - name: step_deserunt_67
-            - name: step_deserunt_56
-            - name: step_fuga_53
-      - name: step_omnis_74
+            - echo "step_2_var - ${step_2_var}"
+            - echo "step_3_var - ${step_3_var}"
+            - if [ "$step_2_var" != "foo" ]; then exit 1; fi
+            - if [ "$step_3_var" != "bar" ]; then exit 1; fi
+  - name: S_WF_017
+    steps:
+      - name: S_WF_017_001
         type: Bash
         execution:
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_et_57
-            - name: step_iure_37
-            - name: step_id_9
-            - name: step_incidunt_36
-            - name: step_ipsa_12
-      - name: step_accusamus_75
+            - echo "Step 1 is running"
+      - name: S_WF_017_002
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_sed_39
-      - name: step_enim_76
-        type: Bash
+            - name: S_WF_017_001
+          affinityGroup: some_ag
         execution:
+          onStart:
+            - add_run_variables step_2_node_id="${step_node_id}"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_voluptatem_18
-            - name: step_eius_2
-            - name: step_distinctio_35
-            - name: step_quo_28
-            - name: step_nisi_24
-      - name: step_repudiandae_77
+            - echo "Step 2 is running"
+      - name: S_WF_017_003
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_explicabo_20
-            - name: step_ducimus_70
-            - name: step_error_69
-            - name: step_eum_58
-            - name: step_deserunt_56
-      - name: step_eos_78
-        type: Bash
+            - name: S_WF_017_001
+          affinityGroup: some_ag
         execution:
+          onStart:
+            - add_run_variables step_3_node_id="${step_node_id}"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_earum_19
-            - name: step_corporis_17
-            - name: step_aut_34
-      - name: step_optio_79
+            - echo "Step 3 is running"
+      - name: S_WF_017_004
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_assumenda_5
-      - name: step_ab_80
-        type: Bash
+            - name: S_WF_017_002
+            - name: S_WF_017_003
+          affinityGroup: some_ag
         execution:
+          onStart:
+            - step_4_node_id="${step_node_id}"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eos_43
-            - name: step_rem_60
-            - name: step_optio_79
-            - name: step_placeat_1
-            - name: step_impedit_71
-      - name: step_modi_81
+            - echo "step_2_node_id - ${step_2_node_id}"
+            - echo "step_3_node_id - ${step_3_node_id}"
+            - echo "step_4_node_id - ${step_4_node_id}"
+            - if [ "$step_2_node_id" != "$step_4_node_id" ]; then exit 1; fi
+            - if [ "$step_3_node_id" != "$step_4_node_id" ]; then exit 1; fi
+  - name: S_WF_018
+    steps:
+      - name: S_WF_018_001
         type: Bash
         execution:
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_error_69
-            - name: step_sed_39
-            - name: step_omnis_22
-            - name: step_natus_55
-            - name: step_eligendi_11
-      - name: step_eligendi_82
+            - echo "Step 1 is running"
+      - name: S_WF_018_002
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_eos_78
-            - name: step_repudiandae_77
-      - name: step_cupiditate_83
-        type: Bash
+            - name: S_WF_018_001
+          affinityGroup: some_ag
         execution:
+          onStart:
+            - add_run_variables step_2_var="foo"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_22
-      - name: step_libero_84
+            - echo "Step 2 is running"
+      - name: S_WF_018_003
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_error_69
-            - name: step_enim_76
-            - name: step_omnis_74
-      - name: step_tempora_85
-        type: Bash
+            - name: S_WF_018_001
+          affinityGroup: some_ag
         execution:
+          onStart:
+            - add_run_variables step_3_var="bar"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_officiis_13
-            - name: step_qui_64
-      - name: step_quis_86
+            - echo "Step 3 is running"
+      - name: S_WF_018_004
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_voluptatem_18
-            - name: step_ipsam_46
-            - name: step_omnis_74
-            - name: step_ducimus_70
-            - name: step_nisi_24
-      - name: step_omnis_87
-        type: Bash
+            - name: S_WF_018_002
+            - name: S_WF_018_003
+          affinityGroup: some_ag
         execution:
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_libero_84
-            - name: step_laborum_31
-      - name: step_ad_88
+            - echo "step_2_var - ${step_2_var}"
+            - echo "step_3_var - ${step_3_var}"
+            - if [ "$step_2_var" != "foo" ]; then exit 1; fi
+            - if [ "$step_3_var" != "bar" ]; then exit 1; fi
+  - name: S_WF_019
+    steps:
+      - name: S_WF_019_1
         type: Bash
         execution:
+          onStart:
+            - add_run_variables step_1_var="step_1"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_maiores_41
-            - name: step_nisi_24
-            - name: step_soluta_33
-      - name: step_odit_89
+            - echo "step 1 is running"
+      - name: S_WF_019_2
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_officiis_13
-            - name: step_deserunt_67
-            - name: step_esse_27
-            - name: step_quo_28
-            - name: step_beatae_29
-      - name: step_qui_90
-        type: Bash
+            - name: S_WF_019_1
+          affinityGroup: ag_foo
+          priority: 4
         execution:
+          onStart:
+            - echo "step_4_var - ${step_4_var}"
+            - if [ "$step_4_var" != "step_4" ]; then exit 1; fi
+            - add_run_variables step_2_var="step_2"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_quis_86
-            - name: step_assumenda_5
-            - name: step_modi_81
-            - name: step_error_69
-            - name: step_rerum_14
-      - name: step_ut_91
+            - echo "step 2 is running"
+      - name: S_WF_019_3
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_iure_37
-            - name: step_impedit_71
-            - name: step_libero_7
-      - name: step_voluptate_92
-        type: Bash
+            - name: S_WF_019_1
+          affinityGroup: ag_foo
+          priority: 1
         execution:
+          onStart:
+            - echo "step_1_var - ${step_1_var}"
+            - if [ "$step_1_var" != "step_1" ]; then exit 1; fi
+            - add_run_variables step_3_var="step_3"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_eos_78
-            - name: step_eligendi_82
-            - name: step_deserunt_67
-      - name: step_maxime_93
+            - echo "step 3 is running"
+      - name: S_WF_019_4
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_omnis_87
-            - name: step_eum_58
-            - name: step_quis_86
-            - name: step_in_25
-      - name: step_cumque_94
-        type: Bash
+            - name: S_WF_019_1
+          affinityGroup: ag_foo
+          priority: 3
         execution:
+          onStart:
+            - echo "step_3_var - ${step_3_var}"
+            - if [ "$step_3_var" != "step_3" ]; then exit 1; fi
+            - add_run_variables step_4_var="step_4"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_omnis_87
-            - name: step_unde_66
-      - name: step_autem_95
+            - echo "step 4 is running"
+      - name: S_WF_019_5
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_assumenda_5
-            - name: step_enim_76
-            - name: step_rem_44
-            - name: step_explicabo_20
-      - name: step_officiis_96
-        type: Bash
+            - name: S_WF_019_2
+            - name: S_WF_019_3
+            - name: S_WF_019_4
+          affinityGroup: ag_foo
+          priority: 4
         execution:
+          onStart:
+            - echo "step_6_var - ${step_6_var}"
+            - if [ "$step_6_var" != "step_6" ]; then exit 1; fi
+            - add_run_variables step_5_var="step_5"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_quam_26
-            - name: step_et_57
-      - name: step_consequatur_97
+            - echo "step 5 is running"
+      - name: S_WF_019_6
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_impedit_71
-            - name: step_voluptatem_18
-            - name: step_omnis_74
-            - name: step_hic_72
-            - name: step_qui_90
-      - name: step_possimus_98
-        type: Bash
+            - name: S_WF_019_2
+            - name: S_WF_019_3
+            - name: S_WF_019_4
+          affinityGroup: ag_foo
+          priority: 2
         execution:
+          onStart:
+            - echo "step_2_var - ${step_2_var}"
+            - echo "step_3_var - ${step_3_var}"
+            - echo "step_4_var - ${step_4_var}"
+            - if [ "$step_2_var" != "step_2" ]; then exit 1; fi
+            - if [ "$step_3_var" != "step_3" ]; then exit 1; fi
+            - if [ "$step_4_var" != "step_4" ]; then exit 1; fi
+            - add_run_variables step_6_var="step_6"
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_laborum_31
-      - name: step_quidem_99
+            - echo "step 6 is running"
+      - name: S_WF_019_7
         type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
         configuration:
           inputSteps:
-            - name: step_repudiandae_77
-      - name: step_dolor_100
-        type: Bash
+            - name: S_WF_019_5
+            - name: S_WF_019_6
+          affinityGroup: ag_foo
+          priority: 2
         execution:
+          onStart:
+            - echo "step_1_var - ${step_1_var}"
+            - echo "step_2_var - ${step_2_var}"
+            - echo "step_3_var - ${step_3_var}"
+            - echo "step_4_var - ${step_4_var}"
+            - echo "step_5_var - ${step_5_var}"
+            - echo "step_6_var - ${step_6_var}"
+            - if [ "$step_1_var" != "step_1" ]; then exit 1; fi
+            - if [ "$step_2_var" != "step_2" ]; then exit 1; fi
+            - if [ "$step_3_var" != "step_3" ]; then exit 1; fi
+            - if [ "$step_4_var" != "step_4" ]; then exit 1; fi
+            - if [ "$step_5_var" != "step_5" ]; then exit 1; fi
+            - if [ "$step_6_var" != "step_6" ]; then exit 1; fi
           onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-        configuration:
-          inputSteps:
-            - name: step_quod_68
-            - name: step_officiis_96
+            - echo "step 7 is running"
