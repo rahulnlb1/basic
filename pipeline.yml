@@ -1,65 +1,66 @@
 resources:
-  - name: res_est_0
+  - name: res_sed_1
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_vitae_0
+  - name: res_quas_2
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_animi_0
+  - name: res_omnis_3
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_eaque
+  - name: res_dolor_4
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_mollitia_0
+  - name: res_voluptates_5
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_harum_0
+  - name: res_molestias_6
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_occaecati_0
+  - name: res_vitae_7
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_assumenda_0
+  - name: res_quidem_8
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_eius_0
+  - name: res_nulla_9
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_omnis_0
+  - name: res_vero_10
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
 pipelines:
-  - name: pipeline_non_1
+  - name: pipeline_odio_1
     steps:
-      - name: step_veritatis_1
+      - name: step_voluptatem_1
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - printenv
+            - write_output res_vero_10 "date1=$date"
+            - write_output res_vitae_7 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -70,17 +71,102 @@ pipelines:
             - printenv
             - printenv
         configuration:
+          outputResources:
+            - name: res_vero_10
+            - name: res_vitae_7
+          affinityGroup: grouprepudiandae
+      - name: step_voluptates_2
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - write_output res_voluptates_5 "date1=$date"
+            - write_output res_vitae_7 "date1=$date"
+            - write_output res_quidem_8 "date1=$date"
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_voluptatem_1
           inputResources:
-            - name: res_est_0
+            - name: res_vero_10
+          outputResources:
+            - name: res_voluptates_5
+            - name: res_vitae_7
+            - name: res_quidem_8
+          affinityGroup: grouprepudiandae
+      - name: step_optio_3
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - write_output res_voluptates_5 "date1=$date"
+            - write_output res_nulla_9 "date1=$date"
+            - write_output res_quidem_8 "date1=$date"
+            - write_output res_vero_10 "date1=$date"
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_voluptatem_1
+            - name: step_voluptates_2
+          outputResources:
+            - name: res_voluptates_5
+            - name: res_nulla_9
+            - name: res_quidem_8
+            - name: res_vero_10
+          affinityGroup: grouprepudiandae
+      - name: step_ut_4
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - write_output res_voluptates_5 "date1=$date"
+            - write_output res_sed_1 "date1=$date"
+            - write_output res_vitae_7 "date1=$date"
+            - write_output res_quas_2 "date1=$date"
+            - write_output res_quidem_8 "date1=$date"
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_voluptates_2
+          inputResources:
+            - name: res_vero_10
+          outputResources:
+            - name: res_voluptates_5
+            - name: res_sed_1
+            - name: res_vitae_7
+            - name: res_quas_2
+            - name: res_quidem_8
           affinityGroup: groupet
-      - name: step_perferendis_2
+      - name: step_voluptatibus_5
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - printenv
+            - write_output res_omnis_3 "date1=$date"
+            - write_output res_dolor_4 "date1=$date"
+            - write_output res_quidem_8 "date1=$date"
+            - write_output res_vitae_7 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -89,18 +175,26 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_veritatis_1
+            - name: step_optio_3
           inputResources:
-            - name: res_omnis_0
-            - name: res_assumenda_0
+            - name: res_sed_1
+            - name: res_vero_10
+            - name: res_quas_2
+          outputResources:
+            - name: res_omnis_3
+            - name: res_dolor_4
+            - name: res_quidem_8
+            - name: res_vitae_7
           affinityGroup: groupet
-      - name: step_ratione_3
+      - name: step_nobis_6
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
+            - write_output res_vitae_7 "date1=$date"
+            - write_output res_quas_2 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -108,43 +202,26 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_veritatis_1
-            - name: step_perferendis_2
+            - name: step_voluptates_2
+            - name: step_ut_4
+            - name: step_voluptatem_1
+            - name: step_optio_3
           inputResources:
-            - name: res_eius_0
-          affinityGroup: groupvoluptas
-      - name: step_voluptatem_4
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - write_output res_animi_0 "date1=$date"
-            - write_output res_omnis_0 "date1=$date"
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_ratione_3
-            - name: step_perferendis_2
-            - name: step_veritatis_1
+            - name: res_omnis_3
+            - name: res_sed_1
+            - name: res_vero_10
           outputResources:
-            - name: res_animi_0
-            - name: res_omnis_0
-          affinityGroup: groupvoluptas
-      - name: step_assumenda_5
+            - name: res_vitae_7
+            - name: res_quas_2
+          affinityGroup: groupet
+      - name: step_aut_7
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - write_output res_occaecati_0 "date1=$date"
-            - write_output res_est_0 "date1=$date"
+            - write_output res_vitae_7 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -154,22 +231,56 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_perferendis_2
+            - name: step_ut_4
+            - name: step_voluptatem_1
+            - name: step_voluptates_2
+            - name: step_nobis_6
+            - name: step_optio_3
+          outputResources:
+            - name: res_vitae_7
+          affinityGroup: groupvoluptatem
+      - name: step_illo_8
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - write_output res_nulla_9 "date1=$date"
+            - write_output res_molestias_6 "date1=$date"
+            - write_output res_dolor_4 "date1=$date"
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_voluptatem_1
           inputResources:
-            - name: res_animi_0
-            - name: res_assumenda_0
-            - name: res_eius_0
+            - name: res_quas_2
           outputResources:
-            - name: res_occaecati_0
-            - name: res_est_0
-          affinityGroup: groupratione
-      - name: step_voluptatem_6
+            - name: res_nulla_9
+            - name: res_molestias_6
+            - name: res_dolor_4
+          affinityGroup: groupvoluptatem
+      - name: step_ducimus_9
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
+            - write_output res_vitae_7 "date1=$date"
+            - write_output res_molestias_6 "date1=$date"
+            - write_output res_dolor_4 "date1=$date"
+            - printenv
+            - printenv
             - printenv
             - printenv
             - printenv
@@ -177,57 +288,29 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_ratione_3
-            - name: step_veritatis_1
-            - name: step_perferendis_2
-            - name: step_voluptatem_4
+            - name: step_voluptatibus_5
+            - name: step_voluptates_2
           inputResources:
-            - name: res_assumenda_0
-            - name: res_est_0
-          affinityGroup: groupratione
-      - name: step_magnam_7
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - write_output res_harum_0 "date1=$date"
-            - write_output res_eaque "date1=$date"
-            - write_output res_occaecati_0 "date1=$date"
-            - write_output res_mollitia_0 "date1=$date"
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_perferendis_2
-            - name: step_voluptatem_6
-            - name: step_voluptatem_4
+            - name: res_nulla_9
+            - name: res_quidem_8
+            - name: res_quas_2
+            - name: res_sed_1
           outputResources:
-            - name: res_harum_0
-            - name: res_eaque
-            - name: res_occaecati_0
-            - name: res_mollitia_0
-          affinityGroup: groupatque
-      - name: step_perspiciatis_8
+            - name: res_vitae_7
+            - name: res_molestias_6
+            - name: res_dolor_4
+          affinityGroup: groupodit
+      - name: step_autem_10
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - write_output res_est_0 "date1=$date"
-            - write_output res_mollitia_0 "date1=$date"
-            - printenv
-            - printenv
+            - write_output res_dolor_4 "date1=$date"
+            - write_output res_voluptates_5 "date1=$date"
+            - write_output res_nulla_9 "date1=$date"
+            - write_output res_vero_10 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -235,69 +318,15 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_voluptatem_4
+            - name: step_illo_8
+            - name: step_nobis_6
+            - name: step_aut_7
           inputResources:
-            - name: res_vitae_0
-            - name: res_eius_0
+            - name: res_omnis_3
+            - name: res_quidem_8
           outputResources:
-            - name: res_est_0
-            - name: res_mollitia_0
-          affinityGroup: groupminus
-      - name: step_minima_9
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - write_output res_harum_0 "date1=$date"
-            - write_output res_omnis_0 "date1=$date"
-            - write_output res_mollitia_0 "date1=$date"
-            - write_output res_vitae_0 "date1=$date"
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_assumenda_5
-          inputResources:
-            - name: res_eius_0
-          outputResources:
-            - name: res_harum_0
-            - name: res_omnis_0
-            - name: res_mollitia_0
-            - name: res_vitae_0
-          affinityGroup: groupassumenda
-      - name: step_sunt_10
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - write_output res_est_0 "date1=$date"
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_magnam_7
-            - name: step_ratione_3
-            - name: step_assumenda_5
-            - name: step_perspiciatis_8
-          inputResources:
-            - name: res_mollitia_0
-            - name: res_animi_0
-            - name: res_eius_0
-            - name: res_omnis_0
-          outputResources:
-            - name: res_est_0
-          affinityGroup: groupassumenda
+            - name: res_dolor_4
+            - name: res_voluptates_5
+            - name: res_nulla_9
+            - name: res_vero_10
+          affinityGroup: groupnon
