@@ -1,155 +1,25 @@
 resources:
-  - name: res_saepe_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
   - name: res_est_0
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_aut_0
+  - name: res_vitae_0
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_pariatur_0
+  - name: res_animi_0
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_magni_0
+  - name: res_eaque
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_rerum_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_minima_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_voluptatibus_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_eius_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_id_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_et_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_expedita_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_esse_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_quo_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_unde
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_adipisci_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_explicabo_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_ut_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_sunt_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_quo
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_qui_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_atque
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_natus_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_ducimus_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_voluptatem
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_placeat_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_molestias_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_accusantium
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_nostrum_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_numquam
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_ab_0
+  - name: res_mollitia_0
     type: PropertyBag
     configuration:
       key1: value1
@@ -159,107 +29,41 @@ resources:
     configuration:
       key1: value1
       key2: value2
-  - name: res_officia
+  - name: res_occaecati_0
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_repellat_0
+  - name: res_assumenda_0
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_quod_0
+  - name: res_eius_0
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
-  - name: res_dignissimos_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_magnam_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_at_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_debitis_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_ipsam
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_dolor_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_itaque_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_fuga_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_aliquid
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_totam_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_cumque_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_aliquam_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_architecto_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_dolore_0
-    type: PropertyBag
-    configuration:
-      key1: value1
-      key2: value2
-  - name: res_unde_0
+  - name: res_omnis_0
     type: PropertyBag
     configuration:
       key1: value1
       key2: value2
 pipelines:
-  - name: pipeline_quas_1
+  - name: pipeline_non_1
     steps:
-      - name: step_tempora_1
+      - name: step_veritatis_1
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - write_output res_dignissimos_0 "date1=$date"
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
             - printenv
             - printenv
             - printenv
@@ -267,20 +71,131 @@ pipelines:
             - printenv
         configuration:
           inputResources:
-            - name: res_atque
-            - name: res_quo
-            - name: res_aliquam_0
-            - name: res_adipisci_0
-          outputResources:
-            - name: res_dignissimos_0
-          affinityGroup: groupsit
-      - name: step_est_2
+            - name: res_est_0
+          affinityGroup: groupet
+      - name: step_perferendis_2
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_veritatis_1
+          inputResources:
+            - name: res_omnis_0
+            - name: res_assumenda_0
+          affinityGroup: groupet
+      - name: step_ratione_3
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_veritatis_1
+            - name: step_perferendis_2
+          inputResources:
+            - name: res_eius_0
+          affinityGroup: groupvoluptas
+      - name: step_voluptatem_4
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - write_output res_animi_0 "date1=$date"
+            - write_output res_omnis_0 "date1=$date"
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_ratione_3
+            - name: step_perferendis_2
+            - name: step_veritatis_1
+          outputResources:
+            - name: res_animi_0
+            - name: res_omnis_0
+          affinityGroup: groupvoluptas
+      - name: step_assumenda_5
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - write_output res_occaecati_0 "date1=$date"
+            - write_output res_est_0 "date1=$date"
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_perferendis_2
+          inputResources:
+            - name: res_animi_0
+            - name: res_assumenda_0
+            - name: res_eius_0
+          outputResources:
+            - name: res_occaecati_0
+            - name: res_est_0
+          affinityGroup: groupratione
+      - name: step_voluptatem_6
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+            - printenv
+        configuration:
+          inputSteps:
+            - name: step_ratione_3
+            - name: step_veritatis_1
+            - name: step_perferendis_2
+            - name: step_voluptatem_4
+          inputResources:
+            - name: res_assumenda_0
+            - name: res_est_0
+          affinityGroup: groupratione
+      - name: step_magnam_7
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - write_output res_harum_0 "date1=$date"
+            - write_output res_eaque "date1=$date"
+            - write_output res_occaecati_0 "date1=$date"
+            - write_output res_mollitia_0 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -293,22 +208,25 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_tempora_1
-          inputResources:
+            - name: step_perferendis_2
+            - name: step_voluptatem_6
+            - name: step_voluptatem_4
+          outputResources:
             - name: res_harum_0
-            - name: res_aut_0
-            - name: res_itaque_0
-          outputResources: []
-          affinityGroup: groupadipisci
-      - name: step_enim_3
+            - name: res_eaque
+            - name: res_occaecati_0
+            - name: res_mollitia_0
+          affinityGroup: groupatque
+      - name: step_perspiciatis_8
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - write_output res_et_0 "date1=$date"
-            - write_output res_ducimus_0 "date1=$date"
+            - write_output res_est_0 "date1=$date"
+            - write_output res_mollitia_0 "date1=$date"
+            - printenv
             - printenv
             - printenv
             - printenv
@@ -317,25 +235,25 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_tempora_1
-            - name: step_est_2
+            - name: step_voluptatem_4
           inputResources:
-            - name: res_unde
+            - name: res_vitae_0
+            - name: res_eius_0
           outputResources:
-            - name: res_et_0
-            - name: res_ducimus_0
-          affinityGroup: groupdignissimos
-      - name: step_quibusdam_4
+            - name: res_est_0
+            - name: res_mollitia_0
+          affinityGroup: groupminus
+      - name: step_minima_9
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - write_output res_cumque_0 "date1=$date"
-            - printenv
-            - printenv
-            - printenv
+            - write_output res_harum_0 "date1=$date"
+            - write_output res_omnis_0 "date1=$date"
+            - write_output res_mollitia_0 "date1=$date"
+            - write_output res_vitae_0 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -343,23 +261,23 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_enim_3
-            - name: step_est_2
+            - name: step_assumenda_5
           inputResources:
-            - name: res_aliquam_0
-            - name: res_qui_0
-            - name: res_nostrum_0
+            - name: res_eius_0
           outputResources:
-            - name: res_cumque_0
-          affinityGroup: groupdignissimos
-      - name: step_numquam_5
+            - name: res_harum_0
+            - name: res_omnis_0
+            - name: res_mollitia_0
+            - name: res_vitae_0
+          affinityGroup: groupassumenda
+      - name: step_sunt_10
         type: Bash
         execution:
           onExecute:
             - printenv
             - 'echo "Executing step on ${stepvar_id}"'
             - export date=$(date)
-            - printenv
+            - write_output res_est_0 "date1=$date"
             - printenv
             - printenv
             - printenv
@@ -371,134 +289,15 @@ pipelines:
             - printenv
         configuration:
           inputSteps:
-            - name: step_est_2
-            - name: step_tempora_1
-            - name: step_enim_3
+            - name: step_magnam_7
+            - name: step_ratione_3
+            - name: step_assumenda_5
+            - name: step_perspiciatis_8
           inputResources:
-            - name: res_magni_0
-            - name: res_atque
-            - name: res_explicabo_0
-            - name: res_natus_0
-          outputResources: []
-          affinityGroup: groupdistinctio
-      - name: step_consequatur_6
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - write_output res_saepe_0 "date1=$date"
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_quibusdam_4
-            - name: step_numquam_5
-          inputResources:
-            - name: res_fuga_0
+            - name: res_mollitia_0
+            - name: res_animi_0
+            - name: res_eius_0
+            - name: res_omnis_0
           outputResources:
-            - name: res_saepe_0
-          affinityGroup: groupdistinctio
-      - name: step_ut_7
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_enim_3
-            - name: step_consequatur_6
-          inputResources:
-            - name: res_natus_0
-          outputResources: []
-          affinityGroup: groupsequi
-      - name: step_sed_8
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - write_output res_accusantium "date1=$date"
-            - write_output res_nostrum_0 "date1=$date"
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_est_2
-          inputResources:
-            - name: res_magni_0
-            - name: res_saepe_0
-            - name: res_atque
-          outputResources:
-            - name: res_accusantium
-            - name: res_nostrum_0
-          affinityGroup: groupcum
-      - name: step_doloremque_9
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_est_2
-            - name: step_enim_3
-          inputResources:
-            - name: res_aliquam_0
-          outputResources: []
-          affinityGroup: groupcum
-      - name: step_voluptatum_10
-        type: Bash
-        execution:
-          onExecute:
-            - printenv
-            - 'echo "Executing step on ${stepvar_id}"'
-            - export date=$(date)
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-            - printenv
-        configuration:
-          inputSteps:
-            - name: step_sed_8
-            - name: step_consequatur_6
-            - name: step_ut_7
-            - name: step_doloremque_9
-          inputResources:
-            - name: res_sunt_0
-          outputResources: []
-          affinityGroup: groupaliquid
+            - name: res_est_0
+          affinityGroup: groupassumenda
