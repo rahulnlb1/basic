@@ -274,9 +274,7 @@ pipelines:
           outputResources:
             - name: res_eum_27
             - name: res_sit_9
-            - name: res_est_32
-          affinityGroup: groupillo
-      - name: step_dolor_2
+            - name: res_est_32      - name: step_dolor_2
         type: Bash
         execution:
           onExecute:
@@ -300,9 +298,7 @@ pipelines:
             - name: res_eum_27
           outputResources:
             - name: res_id_29
-            - name: res_sapiente_25
-          affinityGroup: groupillo
-      - name: step_quo_3
+            - name: res_sapiente_25      - name: step_quo_3
         type: Bash
         execution:
           onExecute:
@@ -328,9 +324,7 @@ pipelines:
             - name: res_est_32
             - name: res_sit_9
           outputResources:
-            - name: res_qui_45
-          affinityGroup: groupillo
-      - name: step_omnis_4
+            - name: res_qui_45      - name: step_omnis_4
         type: Bash
         execution:
           onExecute:
@@ -363,8 +357,7 @@ pipelines:
             - name: res_qui_23
             - name: res_deleniti_14
             - name: res_laboriosam_8
-            - name: res_dolor_30
-          affinityGroup: groupblanditiis
+            - name: res_dolor_30itiis
       - name: step_tempore_5
         type: Bash
         execution:
@@ -394,8 +387,7 @@ pipelines:
             - name: res_facere_22
             - name: res_voluptatem_34
             - name: res_adipisci_42
-            - name: res_illum_37
-          affinityGroup: groupblanditiis
+            - name: res_illum_37itiis
       - name: step_aperiam_6
         type: Bash
         execution:
@@ -424,9 +416,7 @@ pipelines:
             - name: res_sit_9
           outputResources:
             - name: res_saepe_15
-            - name: res_rem_11
-          affinityGroup: groupeum
-      - name: step_delectus_7
+            - name: res_rem_11     - name: step_delectus_7
         type: Bash
         execution:
           onExecute:
@@ -453,9 +443,7 @@ pipelines:
             - name: res_sapiente_25
           outputResources:
             - name: res_nam_19
-            - name: res_alias_12
-          affinityGroup: groupeum
-      - name: step_praesentium_8
+            - name: res_alias_12     - name: step_praesentium_8
         type: Bash
         execution:
           onExecute:
@@ -485,9 +473,7 @@ pipelines:
             - name: res_sit_9
             - name: res_est_32
           outputResources:
-            - name: res_qui_7
-          affinityGroup: groupeum
-      - name: step_qui_9
+            - name: res_qui_7     - name: step_qui_9
         type: Bash
         execution:
           onExecute:
@@ -512,9 +498,7 @@ pipelines:
             - name: res_sit_9
             - name: res_alias_12
           outputResources:
-            - name: res_tenetur_3
-          affinityGroup: groupeum
-      - name: step_error_10
+            - name: res_tenetur_3     - name: step_error_10
         type: Bash
         execution:
           onExecute:
@@ -536,9 +520,7 @@ pipelines:
             - name: step_tempore_5
           inputResources:
             - name: res_id_29
-            - name: res_qui_7
-          affinityGroup: groupeum
-      - name: step_voluptas_11
+            - name: res_qui_7     - name: step_voluptas_11
         type: Bash
         execution:
           onExecute:
@@ -565,9 +547,7 @@ pipelines:
             - name: res_laboriosam_8
           outputResources:
             - name: res_unde_21
-            - name: res_suscipit_6
-          affinityGroup: groupet
-      - name: step_aut_12
+            - name: res_suscipit_6    - name: step_aut_12
         type: Bash
         execution:
           onExecute:
@@ -593,9 +573,7 @@ pipelines:
             - name: res_illum_37
           outputResources:
             - name: res_harum_44
-            - name: res_voluptas_16
-          affinityGroup: groupet
-      - name: step_facilis_13
+            - name: res_voluptas_16    - name: step_facilis_13
         type: Bash
         execution:
           onExecute:
@@ -622,7 +600,6 @@ pipelines:
             - name: res_nam_19
           outputResources:
             - name: res_nam_28
-          affinityGroup: groupomnis
       - name: step_fugit_14
         type: Bash
         execution:
@@ -652,8 +629,7 @@ pipelines:
             - name: res_saepe_15
             - name: res_adipisci_42
           outputResources:
-            - name: res_magni_13
-          affinityGroup: groupmaxime
+            - name: res_magni_13e
       - name: step_et_15
         type: Bash
         execution:
@@ -681,8 +657,7 @@ pipelines:
           outputResources:
             - name: res_doloribus_46
             - name: res_dolores_10
-            - name: res_officiis_49
-          affinityGroup: groupmaxime
+            - name: res_officiis_49e
       - name: step_eum_16
         type: Bash
         execution:
@@ -710,8 +685,7 @@ pipelines:
             - name: res_dolores_10
             - name: res_sapiente_25
           outputResources:
-            - name: res_placeat_41
-          affinityGroup: groupmaxime
+            - name: res_placeat_41e
       - name: step_iste_17
         type: Bash
         execution:
@@ -732,9 +706,7 @@ pipelines:
             - name: res_cupiditate_36
             - name: res_qui_7
           outputResources:
-            - name: res_molestias_33
-          affinityGroup: groupquia
-      - name: step_ab_18
+            - name: res_molestias_33      - name: step_ab_18
         type: Bash
         execution:
           onExecute:
@@ -760,8 +732,7 @@ pipelines:
             - name: res_placeat_41
             - name: res_tenetur_3
             - name: res_nam_19
-            - name: res_unde_21
-          affinityGroup: groupratione
+            - name: res_unde_21ne
       - name: step_et_19
         type: Bash
         execution:
@@ -788,8 +759,7 @@ pipelines:
             - name: res_deleniti_14
           outputResources:
             - name: res_labore_47
-            - name: res_rerum_20
-          affinityGroup: groupratione
+            - name: res_rerum_20ne
       - name: step_odit_20
         type: Bash
         execution:
@@ -813,8 +783,7 @@ pipelines:
             - name: step_laudantium_1
           outputResources:
             - name: res_eos_1
-            - name: res_blanditiis_2
-          affinityGroup: groupratione
+            - name: res_blanditiis_2ne
       - name: step_quam_21
         type: Bash
         execution:
@@ -839,7 +808,6 @@ pipelines:
             - name: res_voluptatem_34
             - name: res_harum_44
             - name: res_laboriosam_8
-          affinityGroup: grouptotam
       - name: step_dolores_22
         type: Bash
         execution:
@@ -867,7 +835,6 @@ pipelines:
             - name: res_placeat_41
           outputResources:
             - name: res_a_40
-          affinityGroup: grouptotam
       - name: step_eos_23
         type: Bash
         execution:
@@ -899,7 +866,6 @@ pipelines:
           outputResources:
             - name: res_natus_38
             - name: res_animi_18
-          affinityGroup: grouptotam
       - name: step_modi_24
         type: Bash
         execution:
@@ -928,8 +894,7 @@ pipelines:
             - name: res_harum_44
             - name: res_labore_47
           outputResources:
-            - name: res_reiciendis_31
-          affinityGroup: groupdeserunt
+            - name: res_reiciendis_31unt
       - name: step_in_25
         type: Bash
         execution:
@@ -955,8 +920,7 @@ pipelines:
             - name: res_saepe_15
             - name: res_placeat_41
           outputResources:
-            - name: res_libero_5
-          affinityGroup: groupdeserunt
+            - name: res_libero_5unt
       - name: step_molestias_26
         type: Bash
         execution:
@@ -983,8 +947,7 @@ pipelines:
             - name: res_animi_18
             - name: res_id_29
             - name: res_eum_27
-            - name: res_officiis_49
-          affinityGroup: groupdebitis
+            - name: res_officiis_49is
       - name: step_aspernatur_27
         type: Bash
         execution:
@@ -1005,8 +968,7 @@ pipelines:
             - name: step_aut_12
           inputResources:
             - name: res_placeat_41
-            - name: res_reiciendis_31
-          affinityGroup: groupdebitis
+            - name: res_reiciendis_31is
       - name: step_eos_28
         type: Bash
         execution:
@@ -1030,8 +992,7 @@ pipelines:
           inputResources:
             - name: res_rem_11
           outputResources:
-            - name: res_debitis_43
-          affinityGroup: groupdebitis
+            - name: res_debitis_43is
       - name: step_sit_29
         type: Bash
         execution:
@@ -1056,7 +1017,6 @@ pipelines:
           inputResources:
             - name: res_voluptas_16
             - name: res_rerum_20
-          affinityGroup: groupfugit
       - name: step_eius_30
         type: Bash
         execution:
@@ -1084,7 +1044,6 @@ pipelines:
             - name: res_laboriosam_8
           outputResources:
             - name: res_qui_4
-          affinityGroup: groupfugit
       - name: step_qui
         type: Bash
         execution:
@@ -1104,8 +1063,7 @@ pipelines:
           inputResources:
             - name: res_unde_21
             - name: res_labore_47
-            - name: res_nam_28
-          affinityGroup: groupdolores
+            - name: res_nam_28es
       - name: step_aliquam_32
         type: Bash
         execution:
@@ -1133,8 +1091,7 @@ pipelines:
             - name: res_deleniti_14
             - name: res_rerum_20
           outputResources:
-            - name: res_aliquam_24
-          affinityGroup: groupdolores
+            - name: res_aliquam_24es
       - name: step_dolores_33
         type: Bash
         execution:
@@ -1161,8 +1118,7 @@ pipelines:
             - name: step_qui
           inputResources:
             - name: res_rerum_20
-            - name: res_qui_7
-          affinityGroup: groupdolores
+            - name: res_qui_7es
       - name: step_voluptas_34
         type: Bash
         execution:
@@ -1189,8 +1145,7 @@ pipelines:
           inputResources:
             - name: res_illum_37
           outputResources:
-            - name: res_quia_17
-          affinityGroup: groupplaceat
+            - name: res_quia_17at
       - name: step_excepturi_35
         type: Bash
         execution:
@@ -1218,8 +1173,7 @@ pipelines:
           inputResources:
             - name: res_alias_12
             - name: res_qui_23
-            - name: res_molestias_33
-          affinityGroup: groupplaceat
+            - name: res_molestias_33at
       - name: step_et_36
         type: Bash
         execution:
@@ -1241,9 +1195,7 @@ pipelines:
             - name: res_officiis_49
             - name: res_sapiente_25
             - name: res_animi_18
-            - name: res_rerum_20
-          affinityGroup: groupquia
-      - name: step_non_37
+            - name: res_rerum_20      - name: step_non_37
         type: Bash
         execution:
           onExecute:
@@ -1268,8 +1220,7 @@ pipelines:
           inputResources:
             - name: res_animi_18
             - name: res_a_40
-            - name: res_labore_47
-          affinityGroup: groupreprehenderit
+            - name: res_labore_47henderit
       - name: step_eos_38
         type: Bash
         execution:
@@ -1294,8 +1245,7 @@ pipelines:
           inputResources:
             - name: res_aliquam_24
           outputResources:
-            - name: res_placeat_39
-          affinityGroup: groupreprehenderit
+            - name: res_placeat_39henderit
       - name: step_dicta_39
         type: Bash
         execution:
@@ -1316,8 +1266,7 @@ pipelines:
             - name: step_eos_23
           inputResources:
             - name: res_libero_5
-            - name: res_eum_27
-          affinityGroup: groupvoluptatem
+            - name: res_eum_27tatem
       - name: step_modi_40
         type: Bash
         execution:
@@ -1342,8 +1291,7 @@ pipelines:
             - name: res_animi_18
             - name: res_qui_45
             - name: res_sapiente_25
-            - name: res_labore_47
-          affinityGroup: groupvoluptatem
+            - name: res_labore_47tatem
       - name: step_ipsam_41
         type: Bash
         execution:
@@ -1366,8 +1314,7 @@ pipelines:
             - name: step_dolores_33
           inputResources:
             - name: res_placeat_39
-            - name: res_libero_5
-          affinityGroup: groupvoluptatem
+            - name: res_libero_5tatem
       - name: step_ea_42
         type: Bash
         execution:
@@ -1394,7 +1341,6 @@ pipelines:
             - name: res_officiis_49
             - name: res_placeat_39
             - name: res_nam_28
-          affinityGroup: groupvitae
       - name: step_mollitia_43
         type: Bash
         execution:
@@ -1423,7 +1369,6 @@ pipelines:
           outputResources:
             - name: res_sunt_50
             - name: res_et_48
-          affinityGroup: groupfugit
       - name: step_voluptates_44
         type: Bash
         execution:
@@ -1450,7 +1395,6 @@ pipelines:
             - name: res_qui_45
             - name: res_voluptas_16
             - name: res_est_32
-          affinityGroup: groupfugit
       - name: step_ea_45
         type: Bash
         execution:
@@ -1476,9 +1420,7 @@ pipelines:
             - name: step_qui
           inputResources:
             - name: res_blanditiis_2
-            - name: res_qui_4
-          affinityGroup: groupodio
-      - name: step_iure_46
+            - name: res_qui_4      - name: step_iure_46
         type: Bash
         execution:
           onExecute:
@@ -1502,9 +1444,7 @@ pipelines:
             - name: res_a_40
             - name: res_placeat_41
             - name: res_sit_9
-            - name: res_illum_37
-          affinityGroup: groupodio
-      - name: step_quasi_47
+            - name: res_illum_37      - name: step_quasi_47
         type: Bash
         execution:
           onExecute:
@@ -1525,7 +1465,6 @@ pipelines:
           inputResources:
             - name: res_tenetur_3
             - name: res_molestias_33
-          affinityGroup: groupporro
       - name: step_praesentium_48
         type: Bash
         execution:
@@ -1545,9 +1484,7 @@ pipelines:
             - name: step_laudantium_1
             - name: step_fugit_14
           inputResources:
-            - name: res_qui_7
-          affinityGroup: groupaut
-      - name: step_voluptas_49
+            - name: res_qui_7     - name: step_voluptas_49
         type: Bash
         execution:
           onExecute:
@@ -1572,9 +1509,7 @@ pipelines:
             - name: res_qui_23
             - name: res_nam_19
             - name: res_eum_27
-            - name: res_sunt_50
-          affinityGroup: groupaut
-      - name: step_aspernatur_50
+            - name: res_sunt_50     - name: step_aspernatur_50
         type: Bash
         execution:
           onExecute:
@@ -1601,9 +1536,7 @@ pipelines:
             - name: res_saepe_15
             - name: res_id_29
           outputResources:
-            - name: res_molestiae_35
-          affinityGroup: groupquis
-      - name: step_reiciendis_51
+            - name: res_molestiae_35      - name: step_reiciendis_51
         type: Bash
         execution:
           onExecute:
@@ -1624,9 +1557,7 @@ pipelines:
             - name: step_iste_17
           inputResources:
             - name: res_eum_27
-            - name: res_est_32
-          affinityGroup: groupquis
-      - name: step_ut_52
+            - name: res_est_32      - name: step_ut_52
         type: Bash
         execution:
           onExecute:
@@ -1644,9 +1575,7 @@ pipelines:
             - name: step_dolor_2
             - name: step_odit_20
           inputResources:
-            - name: res_tenetur_3
-          affinityGroup: groupquis
-      - name: step_et_53
+            - name: res_tenetur_3      - name: step_et_53
         type: Bash
         execution:
           onExecute:
@@ -1671,7 +1600,6 @@ pipelines:
             - name: res_rerum_20
             - name: res_sit_9
             - name: res_debitis_43
-          affinityGroup: groupalias
       - name: step_debitis_54
         type: Bash
         execution:
@@ -1690,7 +1618,6 @@ pipelines:
             - name: step_tempore_5
           inputResources:
             - name: res_qui_7
-          affinityGroup: grouprerum
       - name: step_necessitatibus_55
         type: Bash
         execution:
@@ -1713,7 +1640,6 @@ pipelines:
             - name: step_dolores_33
           inputResources:
             - name: res_laboriosam_8
-          affinityGroup: groupdicta
       - name: step_voluptatem_56
         type: Bash
         execution:
@@ -1733,8 +1659,7 @@ pipelines:
             - name: step_voluptates_44
             - name: step_voluptas_11
           inputResources:
-            - name: res_a_40
-          affinityGroup: groupnecessitatibus
+            - name: res_a_40sitatibus
       - name: step_qui_57
         type: Bash
         execution:
@@ -1756,7 +1681,6 @@ pipelines:
             - name: res_alias_12
             - name: res_a_40
             - name: res_natus_38
-          affinityGroup: groupporro
       - name: step_omnis_58
         type: Bash
         execution:
@@ -1782,7 +1706,6 @@ pipelines:
             - name: step_et_53
           inputResources:
             - name: res_molestias_33
-          affinityGroup: groupporro
       - name: step_pariatur_59
         type: Bash
         execution:
@@ -1808,7 +1731,6 @@ pipelines:
             - name: res_saepe_15
             - name: res_voluptas_16
             - name: res_qui_4
-          affinityGroup: groupporro
       - name: step_similique_60
         type: Bash
         execution:
@@ -1830,8 +1752,7 @@ pipelines:
           inputResources:
             - name: res_libero_5
             - name: res_alias_12
-            - name: res_qui_4
-          affinityGroup: groupnumquam
+            - name: res_qui_4am
       - name: step_aut_61
         type: Bash
         execution:
@@ -1855,8 +1776,7 @@ pipelines:
             - name: res_officiis_49
             - name: res_tenetur_3
             - name: res_magni_13
-            - name: res_qui_23
-          affinityGroup: groupnumquam
+            - name: res_qui_23am
       - name: step_repudiandae_62
         type: Bash
         execution:
@@ -1882,8 +1802,7 @@ pipelines:
             - name: step_voluptas_11
           inputResources:
             - name: res_est_32
-            - name: res_placeat_39
-          affinityGroup: groupconsectetur
+            - name: res_placeat_39ctetur
       - name: step_reiciendis_63
         type: Bash
         execution:
@@ -1905,8 +1824,7 @@ pipelines:
           inputResources:
             - name: res_qui_4
             - name: res_a_40
-            - name: res_facere_22
-          affinityGroup: groupconsectetur
+            - name: res_facere_22ctetur
       - name: step_odio_64
         type: Bash
         execution:
@@ -1930,8 +1848,7 @@ pipelines:
             - name: res_id_29
             - name: res_alias_12
           outputResources:
-            - name: res_explicabo_26
-          affinityGroup: groupconsectetur
+            - name: res_explicabo_26ctetur
       - name: step_maxime_65
         type: Bash
         execution:
@@ -1958,9 +1875,7 @@ pipelines:
             - name: res_voluptas_16
             - name: res_debitis_43
             - name: res_reiciendis_31
-            - name: res_adipisci_42
-          affinityGroup: groupquis
-      - name: step_impedit_66
+            - name: res_adipisci_42      - name: step_impedit_66
         type: Bash
         execution:
           onExecute:
@@ -1982,9 +1897,7 @@ pipelines:
             - name: res_explicabo_26
             - name: res_libero_5
             - name: res_illum_37
-            - name: res_harum_44
-          affinityGroup: groupquis
-      - name: step_earum_67
+            - name: res_harum_44      - name: step_earum_67
         type: Bash
         execution:
           onExecute:
@@ -2009,9 +1922,7 @@ pipelines:
             - name: res_saepe_15
             - name: res_et_48
             - name: res_unde_21
-            - name: res_doloribus_46
-          affinityGroup: groupquis
-      - name: step_modi_68
+            - name: res_doloribus_46      - name: step_modi_68
         type: Bash
         execution:
           onExecute:
@@ -2032,9 +1943,7 @@ pipelines:
             - name: step_sit_29
             - name: step_tempore_5
           inputResources:
-            - name: res_aliquam_24
-          affinityGroup: groupad
-      - name: step_dolores_69
+            - name: res_aliquam_24    - name: step_dolores_69
         type: Bash
         execution:
           onExecute:
@@ -2056,9 +1965,7 @@ pipelines:
             - name: res_rem_11
             - name: res_animi_18
             - name: res_qui_4
-            - name: res_sapiente_25
-          affinityGroup: groupad
-      - name: step_quasi_70
+            - name: res_sapiente_25    - name: step_quasi_70
         type: Bash
         execution:
           onExecute:
@@ -2083,9 +1990,7 @@ pipelines:
             - name: res_nam_28
             - name: res_saepe_15
             - name: res_sapiente_25
-            - name: res_qui_45
-          affinityGroup: groupad
-      - name: step_est_71
+            - name: res_qui_45    - name: step_est_71
         type: Bash
         execution:
           onExecute:
@@ -2108,8 +2013,7 @@ pipelines:
             - name: step_modi_40
             - name: step_reiciendis_63
           inputResources:
-            - name: res_eos_1
-          affinityGroup: groupveritatis
+            - name: res_eos_1atis
       - name: step_eum_72
         type: Bash
         execution:
@@ -2134,8 +2038,7 @@ pipelines:
           inputResources:
             - name: res_labore_47
             - name: res_sit_9
-            - name: res_nam_19
-          affinityGroup: groupveritatis
+            - name: res_nam_19atis
       - name: step_dignissimos_73
         type: Bash
         execution:
@@ -2159,8 +2062,7 @@ pipelines:
             - name: step_in_25
             - name: step_eos_38
           inputResources:
-            - name: res_qui_7
-          affinityGroup: groupveritatis
+            - name: res_qui_7atis
       - name: step_sequi_74
         type: Bash
         execution:
@@ -2187,7 +2089,6 @@ pipelines:
             - name: res_est_32
             - name: res_reiciendis_31
             - name: res_qui_23
-          affinityGroup: grouptotam
       - name: step_dolor_75
         type: Bash
         execution:
@@ -2206,7 +2107,6 @@ pipelines:
             - name: step_voluptates_44
           inputResources:
             - name: res_cupiditate_36
-          affinityGroup: grouptotam
       - name: step_laboriosam_76
         type: Bash
         execution:
@@ -2231,7 +2131,6 @@ pipelines:
             - name: res_reiciendis_31
             - name: res_rem_11
             - name: res_alias_12
-          affinityGroup: groupdolor
       - name: step_laudantium_77
         type: Bash
         execution:
@@ -2257,7 +2156,6 @@ pipelines:
             - name: res_saepe_15
             - name: res_nam_28
             - name: res_tenetur_3
-          affinityGroup: groupdolor
       - name: step_et_78
         type: Bash
         execution:
@@ -2279,8 +2177,7 @@ pipelines:
             - name: res_deleniti_14
             - name: res_molestiae_35
             - name: res_saepe_15
-            - name: res_tenetur_3
-          affinityGroup: groupvoluptas
+            - name: res_tenetur_3tas
       - name: step_aut_79
         type: Bash
         execution:
@@ -2301,8 +2198,7 @@ pipelines:
             - name: step_eos_28
             - name: step_voluptas_34
           inputResources:
-            - name: res_doloribus_46
-          affinityGroup: groupvoluptas
+            - name: res_doloribus_46tas
       - name: step_aut_80
         type: Bash
         execution:
@@ -2326,8 +2222,7 @@ pipelines:
           inputResources:
             - name: res_sapiente_25
             - name: res_facere_22
-            - name: res_cupiditate_36
-          affinityGroup: groupvoluptas
+            - name: res_cupiditate_36tas
       - name: step_quis_81
         type: Bash
         execution:
@@ -2349,9 +2244,7 @@ pipelines:
           inputResources:
             - name: res_dolores_10
             - name: res_dolor_30
-            - name: res_voluptas_16
-          affinityGroup: groupest
-      - name: step_veniam_82
+            - name: res_voluptas_16     - name: step_veniam_82
         type: Bash
         execution:
           onExecute:
@@ -2373,9 +2266,7 @@ pipelines:
             - name: res_sapiente_25
             - name: res_qui_4
             - name: res_explicabo_26
-            - name: res_molestias_33
-          affinityGroup: groupest
-      - name: step_ea_83
+            - name: res_molestias_33     - name: step_ea_83
         type: Bash
         execution:
           onExecute:
@@ -2394,9 +2285,7 @@ pipelines:
             - name: step_pariatur_59
             - name: step_dignissimos_73
           inputResources:
-            - name: res_sit_9
-          affinityGroup: groupex
-      - name: step_non_84
+            - name: res_sit_9    - name: step_non_84
         type: Bash
         execution:
           onExecute:
@@ -2417,9 +2306,7 @@ pipelines:
             - name: step_modi_40
             - name: step_reiciendis_51
           inputResources:
-            - name: res_nam_19
-          affinityGroup: groupex
-      - name: step_sit_85
+            - name: res_nam_19    - name: step_sit_85
         type: Bash
         execution:
           onExecute:
@@ -2442,9 +2329,7 @@ pipelines:
             - name: step_voluptates_44
           inputResources:
             - name: res_harum_44
-            - name: res_cupiditate_36
-          affinityGroup: groupqui
-      - name: step_id_86
+            - name: res_cupiditate_36     - name: step_id_86
         type: Bash
         execution:
           onExecute:
@@ -2465,9 +2350,7 @@ pipelines:
             - name: step_et_78
           inputResources:
             - name: res_natus_38
-            - name: res_harum_44
-          affinityGroup: groupqui
-      - name: step_et_87
+            - name: res_harum_44     - name: step_et_87
         type: Bash
         execution:
           onExecute:
@@ -2495,7 +2378,6 @@ pipelines:
             - name: res_nam_19
             - name: res_sapiente_25
             - name: res_animi_18
-          affinityGroup: groupvelit
       - name: step_maxime_88
         type: Bash
         execution:
@@ -2518,9 +2400,7 @@ pipelines:
             - name: res_reiciendis_31
             - name: res_magni_13
             - name: res_tenetur_3
-            - name: res_molestias_33
-          affinityGroup: groupqui
-      - name: step_esse_89
+            - name: res_molestias_33     - name: step_esse_89
         type: Bash
         execution:
           onExecute:
@@ -2538,8 +2418,7 @@ pipelines:
             - name: step_error_10
           inputResources:
             - name: res_libero_5
-            - name: res_sit_9
-          affinityGroup: groupconsequatur
+            - name: res_sit_9quatur
       - name: step_ipsa_90
         type: Bash
         execution:
@@ -2564,8 +2443,7 @@ pipelines:
           inputResources:
             - name: res_a_40
             - name: res_voluptas_16
-            - name: res_alias_12
-          affinityGroup: grouptemporibus
+            - name: res_alias_12ribus
       - name: step_ut_91
         type: Bash
         execution:
@@ -2587,9 +2465,7 @@ pipelines:
             - name: step_ea_83
           inputResources:
             - name: res_molestias_33
-            - name: res_sapiente_25
-          affinityGroup: groupaut
-      - name: step_ut_92
+            - name: res_sapiente_25     - name: step_ut_92
         type: Bash
         execution:
           onExecute:
@@ -2612,9 +2488,7 @@ pipelines:
             - name: res_debitis_43
             - name: res_nam_28
             - name: res_animi_18
-            - name: res_sapiente_25
-          affinityGroup: groupaut
-      - name: step_illo_93
+            - name: res_sapiente_25     - name: step_illo_93
         type: Bash
         execution:
           onExecute:
@@ -2637,9 +2511,7 @@ pipelines:
           inputResources:
             - name: res_rem_11
             - name: res_alias_12
-            - name: res_qui_4
-          affinityGroup: groupaut
-      - name: step_commodi_94
+            - name: res_qui_4     - name: step_commodi_94
         type: Bash
         execution:
           onExecute:
@@ -2660,8 +2532,7 @@ pipelines:
             - name: step_qui_9
             - name: step_voluptas_49
           inputResources:
-            - name: res_dolor_30
-          affinityGroup: groupquisquam
+            - name: res_dolor_30uam
       - name: step_voluptatem_95
         type: Bash
         execution:
@@ -2680,8 +2551,7 @@ pipelines:
           inputResources:
             - name: res_harum_44
             - name: res_sapiente_25
-            - name: res_rerum_20
-          affinityGroup: groupquisquam
+            - name: res_rerum_20uam
       - name: step_qui_96
         type: Bash
         execution:
@@ -2702,9 +2572,7 @@ pipelines:
             - name: step_voluptatem_95
           inputResources:
             - name: res_natus_38
-            - name: res_voluptatem_34
-          affinityGroup: groupeius
-      - name: step_eaque_97
+            - name: res_voluptatem_34      - name: step_eaque_97
         type: Bash
         execution:
           onExecute:
@@ -2723,9 +2591,7 @@ pipelines:
             - name: step_praesentium_8
             - name: step_ipsam_41
           inputResources:
-            - name: res_deleniti_14
-          affinityGroup: groupeius
-      - name: step_voluptas_98
+            - name: res_deleniti_14      - name: step_voluptas_98
         type: Bash
         execution:
           onExecute:
@@ -2748,9 +2614,7 @@ pipelines:
             - name: res_qui_4
             - name: res_quia_17
             - name: res_alias_12
-            - name: res_a_40
-          affinityGroup: groupeius
-      - name: step_sequi_99
+            - name: res_a_40      - name: step_sequi_99
         type: Bash
         execution:
           onExecute:
@@ -2773,9 +2637,7 @@ pipelines:
             - name: res_nam_19
             - name: res_est_32
             - name: res_magni_13
-            - name: res_illum_37
-          affinityGroup: groupquas
-      - name: step_saepe_100
+            - name: res_illum_37      - name: step_saepe_100
         type: Bash
         execution:
           onExecute:
@@ -2795,5 +2657,4 @@ pipelines:
             - name: step_aut_79
             - name: step_molestias_26
           inputResources:
-            - name: res_placeat_41
-          affinityGroup: groupcorporis
+            - name: res_placeat_41poris
